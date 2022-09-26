@@ -1,0 +1,59 @@
+body {
+  background-color: rgb(217, 237, 243);
+}
+#profile_img {
+  border-radius: 100%;
+  width: 150px;
+  height: auto;
+}
+#Title_Heading {
+  font-size: 30px;
+  margin-top: 10px;
+  color: brown;
+  font-family: "Times New Roman", Times, serif;
+  text-shadow: 1px 1px blue;
+  text-align: center;
+}
+#intro {
+  font-size: 16px;
+  color: gray;
+  font-family: "Courier New", Courier, monospace;
+  text-shadow: 0.5px 0.5px red;
+  text-align: center;
+}
+#Education {
+  font-size: 14px;
+  color: black;
+  word-spacing: 0.1em;
+  line-height: 2em;
+  width: 30%;
+  display: inline-block;
+  margin-left: 5em;
+  font-family: 'Courier New', Courier, monospace;
+}
+#edu_img {
+  /* width: 49%; */
+  display: inline-block;
+}
+#we_img {
+  display: inline-block;
+  /* width: 49%; */
+  margin-left: 5em;
+}
+#workexp {
+  font-size: 15px;
+  color: maroon;
+  font-family: "Courier New", Courier, monospace;
+  text-shadow: 0.05em 0.05em black;
+  width: 50%;
+  display: inline-block;
+  /* text-align: right; */
+  margin-left: 12em;
+}
+#edu {
+  border-radius: 10%;
+  margin-left: 15em;
+}
+#we {
+  border-radius: 10%;
+}

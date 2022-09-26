@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div><h1>Form</h1></div>
+    <div>         
+
+      <div>  <label for="name">Name</label>
+        <input type="text" name="name" id="name"></div>
+        <div>
+            <label for="password">Password</label>
+            <input type="password" name="password">
+        </div>
+        <div>
+            
+        </div>
+    
+   <button  id="myBtn">submit</button>
+    </div>
+<script>
+    document.getElementById("myBtn").addEventListener("click", function() {
+        var name=document.getElementById("name").innerText;
+        console.log(name);
+    alert(name )})
+
+</script>
+</body>
+</html>

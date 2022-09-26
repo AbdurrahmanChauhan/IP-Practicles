@@ -1,0 +1,171 @@
+body {
+    background-color: rgb(217, 237, 243);
+}
+ 
+#profile_img {
+    border-radius: 100%;
+    width: 150px;
+    height: auto;
+}
+ 
+#Title_Heading {
+    font-size: 50px;
+    margin-top: 10px;
+    color: rgb(255, 0, 0);
+    font-family: "Times New Roman", Times, serif;
+    text-shadow: 1px 1px rgb(30, 255, 0);
+    text-align: center;
+}
+ 
+#intro {
+    font-size: 22px;
+    color: rgb(0, 255, 0);
+    font-family: "Courier New", Courier, monospace;
+    text-shadow: 2px 2px red;
+    text-align: center;
+    font-weight: 800;
+}
+ 
+#Education {
+    display: inline-block;
+    font-size: 14px;
+    color: black;
+    word-spacing: 0.1em;
+    line-height: 2em;
+    width: 40%;
+    margin-left: 5em;
+    font-family: 'Courier New', Courier, monospace;
+        -ms-flex: 1; /* IE 10 */
+        flex: 1;
+}
+#workexp {
+    display: inline-block;
+    font-size: 14px;
+    color: maroon;
+    word-spacing: 0.1em;
+    line-height: 2em;
+    /* text-align: center; */
+    width: 40%;
+    margin-left: 12em;
+    font-family: "Courier New", Courier, monospace;
+    /* text-shadow: 0.05em 0.05em black; */
+    /* text-align: right; */
+}
+#edu_img {
+    display: inline-block;
+    width: 49%;
+}
+ 
+#we_img {
+    display: inline-block;
+    width: 40%;
+    /* height: 100%; */
+}
+ 
+#edu {
+    border-radius: 10%;
+    /* margin-left: 15em; */
+}
+ 
+#we {
+    border-radius: 10%;
+}
+/*  
+#background-video {
+    width: 100vw;
+    height: 65%;
+    object-fit: cover;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+} */
+ 
+#footer {
+    background-color: rgb(0, 0, 0);
+    padding: 1em 5em;
+    /* text-align: center; */
+}
+ 
+/* #footer span {
+    margin-left: 25%;
+} */
+ 
+/* unvisited link */
+a:link {
+    color: #FF0000;
+}
+ 
+/* visited link */
+a:visited {
+    color: #00FF00;
+}
+ 
+/* mouse over link */
+a:hover {
+    color: #FF00FF;
+}
+ 
+/* selected link */
+a:active {
+    color: #0000FF;
+}
+ 
+.container {
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 184px;
+    overflow: hidden;
+}
+ 
+.container img {
+    width: 100%;
+    height: 100%;
+    transition: all 2s ease-in-out;
+}
+ 
+.container:hover img {
+    transform: scale(2, 2)
+}
+ 
+p::first-letter {
+    color: #ff0000;
+    font-size: 200%;
+}
+ 
+h3::first-letter {
+    color: rgb(131, 89, 220);
+    font-size: xx-large;
+}
+ 
+h3::first-line {
+    color: rgb(4, 113, 255);
+    font-size: 200%;
+    font-variant: small-caps;
+}
+ 
+::marker {
+    color: rgb(8, 255, 16);
+    font-size: 23px;
+}
+ 
+::selection {
+    color: red;
+    background: yellow;
+}
+
+#ft1{
+    display: inline-block;
+    text-align: center;
+    width: 49%;
+}
+#ft2{
+    display: inline-block;
+    text-align: center;
+    width: 49%;
+}
+#nevbar{
+    padding-bottom: 3em;
+}

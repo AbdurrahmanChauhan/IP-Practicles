@@ -3,15 +3,16 @@
 
 <head>
     <meta charset="utf-8">
-    <title>FORM</title>
-    <meta name="keywords" content="JavaScript Form Validation" />
-    <meta name="description"/>
+    <title>FEEDBACK FORM</title>
+    <meta name="keywords" content="example, JavaScript Form Validation, Sample registration form" />
+    <meta name="description"
+        content="This document is an example of JavaScript Form Validation using a sample registration form. " />
     <link rel='stylesheet' href='./form.css' type='text/css' />
-    <script src="./index.js" type="text/javascript"></script>
+    <script src="./index.js"></script>
 </head>
 
 <body onload="document.registration.userid.focus();">
-    <h1>FEEDBACK Form</h1>
+    <h1>Feedback Form</h1>
     Use tab keys to move from one input field to the next.
     <form name='registration' onSubmit="return formValidation();">
         <ul>
@@ -39,9 +40,9 @@
             <li><label id="gender">Sex:</label></li>
             <li><input type="radio" name="msex" value="Male" /><span>Male</span></li>
             <li><input type="radio" name="fsex" value="Female" /><span>Female</span></li>
-            <!-- <li><label>Language:</label></li> -->
-            <!-- <li><input type="checkbox" name="en" value="en" checked /><span>English</span></li>
-            <li><input type="checkbox" name="nonen" value="noen" /><span>Non English</span></li> -->
+            <li><label>Resume:</label></li>
+            <li><input type="checkbox" name="en" value="en" checked /><span>Good</span></li>
+            <li><input type="checkbox" name="nonen" value="noen" /><span>Bad</span></li>
             <li><label for="desc">About:</label></li>
             <li><textarea name="desc" id="desc"></textarea></li>
             <li><input type="submit" name="submit" value="Submit" /></li>
